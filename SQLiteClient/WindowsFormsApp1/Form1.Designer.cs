@@ -57,7 +57,7 @@
             this.btnAdd.Location = new System.Drawing.Point(675, 141);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 54);
-            this.btnAdd.TabIndex = 1;
+            this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "追加";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -68,7 +68,7 @@
             this.txtName.Location = new System.Drawing.Point(675, 37);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 27);
-            this.txtName.TabIndex = 2;
+            this.txtName.TabIndex = 1;
             // 
             // txtAge
             // 
