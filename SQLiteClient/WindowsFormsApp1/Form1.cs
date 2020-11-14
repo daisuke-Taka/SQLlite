@@ -19,12 +19,15 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             members = new List<Member>();
+            //バインディングソース＝membersを設定
             bsMembers.DataSource = members;
+            //DateGridViewに追加
             dgvMembers.DataSource = bsMembers;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            //Member=クラス名
             Member member = new Member();
             member.Name = txtName.Text;
             member.Age = int.Parse(txtAge.Text);
