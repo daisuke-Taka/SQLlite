@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvMembers = new System.Windows.Forms.DataGridView();
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bsMembers = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMembers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsMembers)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvMembers
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(652, 426);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvMembers.AllowUserToAddRows = false;
+            this.dgvMembers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMembers.Location = new System.Drawing.Point(12, 12);
+            this.dgvMembers.Name = "dgvMembers";
+            this.dgvMembers.RowHeadersWidth = 51;
+            this.dgvMembers.RowTemplate.Height = 24;
+            this.dgvMembers.Size = new System.Drawing.Size(652, 426);
+            this.dgvMembers.TabIndex = 0;
             // 
             // btnAdd
             // 
@@ -106,10 +106,10 @@
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvMembers);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMembers)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsMembers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -118,7 +118,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvMembers;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtAge;
